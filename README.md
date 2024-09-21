@@ -1,2 +1,2 @@
 # Mobile-Application-Development
-University course(CSE-425,426)
+University course(CSE-426)
