@@ -2,7 +2,9 @@ Use these procedures to configure your environment for developing Android apps:
 
 1. **Install Android Studio**: Go to the official website to download and install Android Studio.
 
-
+```
+https://developer.android.com/studio
+```
 
 2. **Install JDK**: Make sure the Java Development Kit (JDK) is set up on your system. This is usually included with Android Studio.
 
