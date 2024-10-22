@@ -4,6 +4,7 @@
 ### ২. **Declaration of Activities in Manifest File**
 প্রতিটি **Activity** কে **AndroidManifest.xml** ফাইলে ঘোষণা করতে হয়, কারণ এটি অ্যাপ্লিকেশনের কাঠামো এবং বৈশিষ্ট্য সম্পর্কে সিস্টেমকে তথ্য দেয়। **AndroidManifest.xml** এ **Activity** ঘোষণা করার উদাহরণ নিচে দেওয়া হলো:
 
+
 ```xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapp">
