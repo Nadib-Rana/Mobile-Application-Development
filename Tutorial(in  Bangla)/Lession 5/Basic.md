@@ -1,5 +1,6 @@
 ### ১. **What is an Activity?**
 **Activity** হলো Android অ্যাপ্লিকেশনের একটি প্রধান উপাদান, যা সাধারণত একটি একক স্ক্রিন বা ইউজার ইন্টারফেস উপস্থাপন করে। ব্যবহারকারীর সাথে সরাসরি ইন্টারঅ্যাক্ট করে এমন UI উপাদানগুলো **Activity** তে থাকে। প্রতিটি **Activity** একটি অ্যাপের নির্দিষ্ট কার্যকলাপ সম্পন্ন করে, যেমন একটি লিস্ট দেখানো বা ফর্ম পূরণ করা। একটি Android অ্যাপ একাধিক **Activity** নিয়ে গঠিত হতে পারে, এবং একটি অ্যাপ চালু হওয়ার পর একটি **Activity** প্রথমে প্রদর্শিত হয়।
+##### An Activity in Android is a single screen that displays the user interface and manages interactions within an app.
 
 ### ২. **Declaration of Activities in Manifest File**
 প্রতিটি **Activity** কে **AndroidManifest.xml** ফাইলে ঘোষণা করতে হয়, কারণ এটি অ্যাপ্লিকেশনের কাঠামো এবং বৈশিষ্ট্য সম্পর্কে সিস্টেমকে তথ্য দেয়। **AndroidManifest.xml** এ **Activity** ঘোষণা করার উদাহরণ নিচে দেওয়া হলো:
