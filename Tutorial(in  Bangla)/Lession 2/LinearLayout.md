@@ -78,6 +78,7 @@
         android:layout_weight="1" />
 </LinearLayout>
 ```
+![image](https://github.com/user-attachments/assets/531ed4ef-8a99-44d0-9f3c-84c5c44e4475)
 
 এই উদাহরণে, তিনটি বাটনকে অনুভূমিকভাবে সাজানো হয়েছে এবং **`layout_weight`** ব্যবহার করে স্পেস সমানভাবে ভাগ করা হয়েছে।
 
