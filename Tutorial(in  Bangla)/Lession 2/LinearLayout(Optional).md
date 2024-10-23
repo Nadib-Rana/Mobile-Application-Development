@@ -11,7 +11,8 @@ LinearLayout-এর আরও কিছু গুরুত্বপূর্ণ 
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+     android:gravity="center">
 
     <!-- প্রথম বাটন, 1 ইউনিট ওজন -->
     <Button
@@ -28,6 +29,8 @@ LinearLayout-এর আরও কিছু গুরুত্বপূর্ণ 
         android:text="বাটন ২" />
 </LinearLayout>
 ```
+![image](https://github.com/user-attachments/assets/18a7e062-055a-4209-8287-339213f1bb56)
+
 
 #### ব্যাখ্যা:
 - `android:layout_width="0dp"` ব্যবহৃত হয়েছে কারণ **layout_weight** যখন ব্যবহৃত হয়, তখন প্রয়োজনীয় জায়গা প্রদান করার জন্য ভিউর প্রস্থকে ডিপি (dp) এর উপর নির্ভর করার প্রয়োজন নেই। ওজনের মাধ্যমে অটোমেটিক্যালি স্পেস ভাগ হবে।
