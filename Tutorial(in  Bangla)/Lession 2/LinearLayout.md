@@ -42,6 +42,8 @@
         android:layout_marginTop="16dp" />
 </LinearLayout>
 ```
+![image](https://github.com/user-attachments/assets/850c22a2-5ff8-4d28-aac2-37eac9b4c59f)
+
 
 ### অনুভূমিকভাবে ভিউ সাজানো উদাহরণ:
 
