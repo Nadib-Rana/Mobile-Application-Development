@@ -10,12 +10,10 @@ Welcome to the **Midterm Review**! .
 ## 1. 📐 Layout XML
 
 ### LinearLayout
-- **Advantages**:
-- **Disadvantages**:
+- **xml code for UI/UX design**
 
 ### RelativeLayout
-- **Advantages**:
-- **Disadvantages**:
+- **xml code for UI/UX design**
 
 ---
 
