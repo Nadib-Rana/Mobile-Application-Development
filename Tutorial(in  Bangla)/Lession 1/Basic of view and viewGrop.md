@@ -8,6 +8,8 @@
 - **ImageView**: ইমেজ দেখানোর জন্য।
 - **EditText**: ব্যবহারকারীর ইনপুট নেওয়ার জন্য টেক্সট ফিল্ড।
 
+  (Views are the basic visual elements in a mobile application’s user interface, including buttons and text fields, organized hierarchically to facilitate user interaction and display information.)
+
 ### ২. **ViewGroups**
 একটি **ViewGroup** মূলত একটি কন্টেইনার যা এক বা একাধিক **View** (বা অন্যান্য **ViewGroup**) কে ধারণ করে। এটি একটি প্যারেন্ট হিসেবে কাজ করে এবং চাইল্ড ভিউগুলো কীভাবে স্ক্রিনে সাজানো হবে তা নির্ধারণ করে।
 
