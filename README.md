@@ -2,19 +2,21 @@
 University course(CSE-425)
 
 #### Midterm:
-     -layout XML
+  -1.layout XML
         - LinearLayout
         - Reletivelayout
      - cloud computing (adv and disadvantages)
         - ues
-     - Backed(MenifestFile)
+ - 2.Backed(MenifestFile)
        - Location permission 
        - Camera permission
-     - Intent
+ -3. Intent
         -Impresit 
         -Explecit
-    - Acticity stack 
-    - call back function
+ -4. Acticity stack 
+        - Foreground process 
+        - call back function   
+      
     
     
        
