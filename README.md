@@ -64,10 +64,5 @@ Callback functions are executed after a specific action is completed.
 ---
 
 ✨ **midterms!** ✨
-
-    
-       
-       
-     
       
   
