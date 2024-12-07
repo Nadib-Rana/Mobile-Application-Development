@@ -40,3 +40,20 @@ Sensors are devices that detect and measure physical phenomena and convert them 
 In short:  
 - **Hardware sensors** = Actual device parts.  
 - **Software sensors** = Virtual, rely on hardware data and algorithms.  
+
+##  **sensor names** and their **uses**:
+
+| **Sensor Name**        | **Use**                                                                 |
+|-------------------------|-------------------------------------------------------------------------|
+| **Accelerometer**       | Detects motion, tilt, shake, and orientation.                          |
+| **Gyroscope**           | Measures rotation and angular movement (e.g., gaming, AR/VR).         |
+| **Proximity Sensor**    | Detects nearby objects (e.g., turning off the screen during a call).   |
+| **Ambient Light Sensor**| Adjusts screen brightness based on surrounding light.                 |
+| **Magnetometer**        | Acts as a compass to detect direction.                                |
+| **Barometer**           | Measures air pressure for altitude and weather apps.                 |
+| **GPS**                 | Tracks location for navigation and mapping.                          |
+| **Fingerprint Sensor**  | Provides biometric authentication for security.                      |
+| **Heart Rate Sensor**   | Monitors heart rate in fitness or health apps.                       |
+| **Microphone**          | Captures sound for voice commands, calls, and recordings.            |
+
+This gives a quick overview of sensor functionality in modern devices!
