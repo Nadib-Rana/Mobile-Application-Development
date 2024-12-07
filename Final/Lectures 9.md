@@ -8,7 +8,7 @@ Sensors are devices that detect and measure physical phenomena and convert them 
    - **Examples**:  
      - Accelerometer  
      - Gyroscope  
-     - Vibration Sensor  
+     - Gravity 
 
 ### 2. **Environmental Sensors**  
    - Measure environmental factors like temperature, humidity, or pressure.  
