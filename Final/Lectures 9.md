@@ -23,4 +23,20 @@ Sensors are devices that detect and measure physical phenomena and convert them 
      - Magnetometer (compass)  
      - Proximity 
 
+---
 
+**hardware** and **software sensors**:  
+
+### **Hardware Sensors**  
+- **Physical components** in a device that directly measure real-world data.  
+- Example: Accelerometer (measures motion), Gyroscope (measures rotation), Proximity Sensor (detects nearby objects).  
+- Found inside the device and interact with the environment.  
+
+### **Software Sensors**  
+- **Virtual sensors** created by combining or processing data from hardware sensors using software.  
+- Example: Orientation Sensor (combines accelerometer and gyroscope), Step Counter (uses accelerometer data).  
+- They don’t physically exist but mimic functionality.  
+
+In short:  
+- **Hardware sensors** = Actual device parts.  
+- **Software sensors** = Virtual, rely on hardware data and algorithms.  
