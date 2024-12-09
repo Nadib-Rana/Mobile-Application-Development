@@ -57,3 +57,5 @@ In short:
 | **Microphone**          | Captures sound for voice commands, calls, and recordings.            |
 
 This gives a quick overview of sensor functionality in modern devices!
+
+
