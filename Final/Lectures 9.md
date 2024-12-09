@@ -57,5 +57,79 @@ In short:
 | **Microphone**          | Captures sound for voice commands, calls, and recordings.            |
 
 This gives a quick overview of sensor functionality in modern devices!
+ **essential code** for each question:
+
+---
+
+### **1. Android Code to Access the Accelerometer and Display X, Y, Z Values**
+
+```java
+SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+Sensor accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+
+sensorManager.registerListener(new SensorEventListener() {
+    @Override
+    public void onSensorChanged(SensorEvent event) {
+        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+            float x = event.values[0];
+            float y = event.values[1];
+            float z = event.values[2];
+            // Display X, Y, Z values
+        }
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+}, accelerometer, SensorManager.SENSOR_DELAY_UI);
+```
+
+---
+
+### **2. Android Code for Proximity Sensor to Detect Object Proximity**
+
+```java
+SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+Sensor proximitySensor = sensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY);
+
+sensorManager.registerListener(new SensorEventListener() {
+    @Override
+    public void onSensorChanged(SensorEvent event) {
+        if (event.sensor.getType() == Sensor.TYPE_PROXIMITY) {
+            float distance = event.values[0];
+            if (distance < proximitySensor.getMaximumRange()) {
+                // Object is near
+            } else {
+                // Object is not near
+            }
+        }
+    }
+
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+}, proximitySensor, SensorManager.SENSOR_DELAY_UI);
+```
+
+---
+
+### **3. Python Code to Read Data from an Accelerometer on a Raspberry Pi**
+
+```python
+import time
+import board
+import busio
+import adafruit_adxl34x
+
+i2c = busio.I2C(board.SCL, board.SDA)
+accelerometer = adafruit_adxl34x.ADXL345(i2c)
+
+while True:
+    x, y, z = accelerometer.acceleration
+    print(f"X: {x} m/s^2  Y: {y} m/s^2  Z: {z} m/s^2")
+    time.sleep(1)
+```
+
+---
+
+These are the most important parts of the code for each case. Let me know if you need any more details!
 
 
