@@ -56,7 +56,6 @@ Welcome to the **Midterm Review**! .
 - **Foreground Process**: The most important, user-facing process.
 
 ---
-
 ## 6. 🔄 Callback Function
 
 Callback functions are executed after a specific action is completed.
